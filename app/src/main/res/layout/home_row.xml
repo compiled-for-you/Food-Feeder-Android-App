@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cardview">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imgrestaurant"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_weight="2"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvresname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rs"
+                android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tvresprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200/person"
+                    android:textSize="17sp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvrating"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="4.5"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorAccent"
+                android:drawableStart="@drawable/ic_star"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:id="@+id/imgsetfav"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/ic_heart_set_fav"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

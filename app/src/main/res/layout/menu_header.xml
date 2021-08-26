@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@drawable/headerbackground">
+<ImageView
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:src="@drawable/ic_dp"
+    android:layout_margin="10dp"
+    />
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vedansh_bhardwaj"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="8dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/personNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vedansh_bhardwaj"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="8dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
