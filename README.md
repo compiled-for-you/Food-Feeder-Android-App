@@ -2,7 +2,7 @@
 A reactive Zomato like app for food ordering.
 
 ### Installing the app - 
-The link to the APK file of the app is attached [here](www.google.com) .
+The link to the APK file of the app is attached [here](https://drive.google.com/file/d/1n0jmFcy-9wM4fWgkFPx2PsWMMgP7P-wd/view?usp=sharing) .
 * You need to "Allow Apps from unknown source" to install the apk and run the app on your android device.
 
 ### Working - 
